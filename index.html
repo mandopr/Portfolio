@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <nav id="navbar">
+      <span class="title">Portfolio</span>
+      <div class="hamburger">
+        <div class="strip1"></div>
+        <div class="strip2"></div>
+        <div class="strip3"></div>
+      </div>
+      <div class="links">
+        <a href="#welcome-section" class="seclink">About</a>
+        <a href="#projects" class="seclink">Projects</a>
+        <a href="#contact" class="seclink">Contact</a>
+      </div>
+    </nav>
+    <main>
+      <section id="welcome-section">
+        <article class="info">
+          <h1>Hey!! This is Pirthaviraj</h1>
+          <p>An aspiring web-developer workign hard to get job <b>:)</b></p>
+        </article>
+        <article class="image">
+          <div class="img">
+            <img src="images/me.png" alt="my image" />
+          </div>
+        </article>
+      </section>
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="proj-area">
+          <div class="project">
+            <img src="images/tp.png" alt="" />
+            <div class="proj-info">
+              <h3 class="project-title">Tribute Page</h3>
+              <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Flexbox</span>
+              </div>
+              <a href="https://codepen.io/Shardha/pen/MWJMGme" target="_blank"
+                >Live Preview</a
+              >
+            </div>
+          </div>
+          <div class="project">
+            <img src="images/plp.png" alt="" />
+            <div class="proj-info">
+              <h3 class="project-title">Product Landing Page</h3>
+              <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Flexbox</span>
+                <span>JavaScript</span>
+              </div>
+              <a
+                href="https://mandopr.github.io/Product-Landing-page/"
+                target="_blank"
+                >Live Preview</a
+              >
+            </div>
+          </div>
+          <div class="project">
+            <img src="images/TDP.png" alt="" />
+            <div class="proj-info">
+              <h3 class="project-title">Technical Documentation Page</h3>
+              <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Flexbox</span>
+                <span>JavaScript</span>
+              </div>
+              <a href="https://codepen.io/Shardha/pen/LYyramV" target="_blank"
+                >Live Preview</a
+              >
+            </div>
+          </div>
+          <div class="project">
+            <img src="images/natours.png" alt="" />
+            <div class="proj-info">
+              <h3 class="project-title">Natours</h3>
+              <div class="tags">
+                <span>HTML</span>
+                <span>Flexbox</span>
+                <span>SCSS</span>
+              </div>
+              <a href="https://mandopr.github.io/Natours/" target="_blank"
+                >Live Preview</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#">
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your name"
+          />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+          />
+          <textarea
+            name="about_yourself"
+            id="about_yourself"
+            cols="30"
+            rows="5"
+            placeholder="Enter something about yourself"
+          ></textarea>
+          <button class="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="sm-links">
+        <a href="https://github.com/mandopr" target="_blank">
+          <img src="images/github.svg" alt="" id="profile-link" />
+        </a>
+      </div>
+      <p>©2021 by Prithaviraj</p>
+    </footer>
+  </body>
+</html>
